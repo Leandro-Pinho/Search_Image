@@ -2,6 +2,7 @@ const searchForm = document.getElementById("search-form");
 const searchBox = document.getElementById("search-box");
 const searchResult = document.getElementById("search-result");
 const showMoreBtn = document.getElementById("show-more-btn");
+const showNome = document.getElementById("nome");
 
 // a chave da app
 const accesskey = "d6RBe5zPr_baY8lKcPqBglB7gIxXFQrdV9iDB8gJTZY";
@@ -31,8 +32,8 @@ async function searchImages() {
         imageLink.href = result.links.html;
         imageLink.target = "_blank";
 
-        imageLink.appendChild(image)
-        searchResult.appendChild(imageLink)
+        imageLink.append(image)
+        searchResult.append(imageLink)
     })
 
     showMoreBtn.style.display = "block"

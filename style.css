@@ -75,7 +75,7 @@ form button {
     margin: 100px auto 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
+    grid-gap: 30px;
 }
 
 #search-result img {
@@ -84,3 +84,5 @@ form button {
     object-fit: cover;
     border-radius: 5px;
 }
+
+
